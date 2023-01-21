@@ -1,0 +1,243 @@
+
+[DEBUG Sat Jan 21 13:40:04 2023] ...im/site/pack/packer/opt/mason.nvim/lua/mason-core/fs.lua:71: fs: mkdirp /data/data/com.termux/files/home/.local/share/nvim/mason/.packages/lua-language-server
+[DEBUG Sat Jan 21 13:40:04 2023] ...site/pack/packer/opt/mason.nvim/lua/mason-core/fetch.lua:34: Fetching URL "https://api.mason-registry.dev/api/repo/rogalmic/vscode-bash-debug/releases/latest"
+[DEBUG Sat Jan 21 13:40:04 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:116: Spawning cmd="curl", spawn_opts={
+  args = { "-H", "Accept: application/vnd.mason-registry.v1+json; q=1.0, application/json; q=0.8", "-H", "User-Agent: mason.nvim (+https://github.com/williamboman/mason.nvim)", "-fsSL", "-X", "GET", "https://api.mason-registry.dev/api/repo/rogalmic/vscode-bash-debug/releases/latest" }
+}
+[DEBUG Sat Jan 21 13:40:04 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:162: Spawned with pid 12592
+[DEBUG Sat Jan 21 13:40:04 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:116: Spawning cmd="npm", spawn_opts={
+  args = { "ls", "--json" },
+  cwd = "/data/data/com.termux/files/home/.local/share/nvim/mason/packages/bash-language-server"
+}
+[DEBUG Sat Jan 21 13:40:04 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:162: Spawned with pid 12593
+[DEBUG Sat Jan 21 13:40:04 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:116: Spawning cmd="npm", spawn_opts={
+  args = { "ls", "--json" },
+  cwd = "/data/data/com.termux/files/home/.local/share/nvim/mason/packages/css-lsp"
+}
+[DEBUG Sat Jan 21 13:40:04 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:162: Spawned with pid 12599
+[DEBUG Sat Jan 21 13:40:04 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:116: Spawning cmd="npm", spawn_opts={
+  args = { "ls", "--json" },
+  cwd = "/data/data/com.termux/files/home/.local/share/nvim/mason/packages/cssmodules-language-server"
+}
+[DEBUG Sat Jan 21 13:40:04 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:162: Spawned with pid 12600
+[DEBUG Sat Jan 21 13:40:04 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:116: Spawning cmd="npm", spawn_opts={
+  args = { "ls", "--json" },
+  cwd = "/data/data/com.termux/files/home/.local/share/nvim/mason/packages/emmet-ls"
+}
+[DEBUG Sat Jan 21 13:40:04 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:162: Spawned with pid 12606
+[DEBUG Sat Jan 21 13:40:04 2023] ...site/pack/packer/opt/mason.nvim/lua/mason-core/fetch.lua:34: Fetching URL "https://api.mason-registry.dev/api/repo/sumneko/vscode-lua/releases/latest"
+[DEBUG Sat Jan 21 13:40:04 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:116: Spawning cmd="curl", spawn_opts={
+  args = { "-H", "Accept: application/vnd.mason-registry.v1+json; q=1.0, application/json; q=0.8", "-H", "User-Agent: mason.nvim (+https://github.com/williamboman/mason.nvim)", "-fsSL", "-X", "GET", "https://api.mason-registry.dev/api/repo/sumneko/vscode-lua/releases/latest" }
+}
+[DEBUG Sat Jan 21 13:40:04 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:162: Spawned with pid 12607
+[DEBUG Sat Jan 21 13:40:04 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:148: Job pid=12607 exited with exit_code=0, signal=0
+[ERROR Sat Jan 21 13:40:04 2023] .../packer/opt/mason.nvim/lua/mason-core/installer/init.lua:159: Installation failed for Package(name=lua-language-server) error="Could not find which release file to download.\nMost likely the current operating system or architecture is not supported (Linux_arm64)."
+[DEBUG Sat Jan 21 13:40:04 2023] ...im/site/pack/packer/opt/mason.nvim/lua/mason-core/fs.lua:47: fs: rmrf /data/data/com.termux/files/home/.local/share/nvim/mason/.packages/lua-language-server
+[DEBUG Sat Jan 21 13:40:04 2023] ...acker/opt/mason.nvim/lua/mason-core/installer/linker.lua:21: Unlinking Package(name=lua-language-server)
+[DEBUG Sat Jan 21 13:40:05 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:148: Job pid=12592 exited with exit_code=0, signal=0
+[DEBUG Sat Jan 21 13:40:05 2023] .../opt/mason.nvim/lua/mason-core/package/version-check.lua:72: Version check failed ...r/opt/mason.nvim/lua/mason-core/managers/github/init.lua:181: Primary package is not outdated.
+[DEBUG Sat Jan 21 13:40:05 2023] ...site/pack/packer/opt/mason.nvim/lua/mason-core/fetch.lua:34: Fetching URL "https://api.mason-registry.dev/api/repo/microsoft/vscode-gradle/releases/latest"
+[DEBUG Sat Jan 21 13:40:05 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:116: Spawning cmd="curl", spawn_opts={
+  args = { "-H", "Accept: application/vnd.mason-registry.v1+json; q=1.0, application/json; q=0.8", "-H", "User-Agent: mason.nvim (+https://github.com/williamboman/mason.nvim)", "-fsSL", "-X", "GET", "https://api.mason-registry.dev/api/repo/microsoft/vscode-gradle/releases/latest" }
+}
+[DEBUG Sat Jan 21 13:40:05 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:162: Spawned with pid 12633
+[DEBUG Sat Jan 21 13:40:05 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:148: Job pid=12599 exited with exit_code=0, signal=0
+[DEBUG Sat Jan 21 13:40:05 2023] ...site/pack/packer/opt/mason.nvim/lua/mason-core/fetch.lua:34: Fetching URL "https://api.mason-registry.dev/api/npm/vscode-langservers-extracted/versions/latest"
+[DEBUG Sat Jan 21 13:40:05 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:116: Spawning cmd="curl", spawn_opts={
+  args = { "-H", "Accept: application/vnd.mason-registry.v1+json; q=1.0, application/json; q=0.8", "-H", "User-Agent: mason.nvim (+https://github.com/williamboman/mason.nvim)", "-fsSL", "-X", "GET", "https://api.mason-registry.dev/api/npm/vscode-langservers-extracted/versions/latest" }
+}
+[DEBUG Sat Jan 21 13:40:05 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:162: Spawned with pid 12658
+[DEBUG Sat Jan 21 13:40:05 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:148: Job pid=12606 exited with exit_code=0, signal=0
+[DEBUG Sat Jan 21 13:40:05 2023] ...site/pack/packer/opt/mason.nvim/lua/mason-core/fetch.lua:34: Fetching URL "https://api.mason-registry.dev/api/npm/emmet-ls/versions/latest"
+[DEBUG Sat Jan 21 13:40:05 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:116: Spawning cmd="curl", spawn_opts={
+  args = { "-H", "Accept: application/vnd.mason-registry.v1+json; q=1.0, application/json; q=0.8", "-H", "User-Agent: mason.nvim (+https://github.com/williamboman/mason.nvim)", "-fsSL", "-X", "GET", "https://api.mason-registry.dev/api/npm/emmet-ls/versions/latest" }
+}
+[DEBUG Sat Jan 21 13:40:05 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:162: Spawned with pid 12659
+[DEBUG Sat Jan 21 13:40:05 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:148: Job pid=12593 exited with exit_code=0, signal=0
+[DEBUG Sat Jan 21 13:40:05 2023] ...site/pack/packer/opt/mason.nvim/lua/mason-core/fetch.lua:34: Fetching URL "https://api.mason-registry.dev/api/npm/bash-language-server/versions/latest"
+[DEBUG Sat Jan 21 13:40:05 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:116: Spawning cmd="curl", spawn_opts={
+  args = { "-H", "Accept: application/vnd.mason-registry.v1+json; q=1.0, application/json; q=0.8", "-H", "User-Agent: mason.nvim (+https://github.com/williamboman/mason.nvim)", "-fsSL", "-X", "GET", "https://api.mason-registry.dev/api/npm/bash-language-server/versions/latest" }
+}
+[DEBUG Sat Jan 21 13:40:05 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:162: Spawned with pid 12670
+[DEBUG Sat Jan 21 13:40:05 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:148: Job pid=12600 exited with exit_code=0, signal=0
+[DEBUG Sat Jan 21 13:40:05 2023] ...site/pack/packer/opt/mason.nvim/lua/mason-core/fetch.lua:34: Fetching URL "https://api.mason-registry.dev/api/npm/cssmodules-language-server/versions/latest"
+[DEBUG Sat Jan 21 13:40:05 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:116: Spawning cmd="curl", spawn_opts={
+  args = { "-H", "Accept: application/vnd.mason-registry.v1+json; q=1.0, application/json; q=0.8", "-H", "User-Agent: mason.nvim (+https://github.com/williamboman/mason.nvim)", "-fsSL", "-X", "GET", "https://api.mason-registry.dev/api/npm/cssmodules-language-server/versions/latest" }
+}
+[DEBUG Sat Jan 21 13:40:05 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:162: Spawned with pid 12677
+[DEBUG Sat Jan 21 13:40:05 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:148: Job pid=12633 exited with exit_code=0, signal=0
+[DEBUG Sat Jan 21 13:40:05 2023] .../opt/mason.nvim/lua/mason-core/package/version-check.lua:72: Version check failed ...r/opt/mason.nvim/lua/mason-core/managers/github/init.lua:181: Primary package is not outdated.
+[DEBUG Sat Jan 21 13:40:05 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:116: Spawning cmd="git", spawn_opts={
+  args = { "fetch", "origin", "HEAD" },
+  cwd = "/data/data/com.termux/files/home/.local/share/nvim/mason/packages/groovy-language-server"
+}
+[DEBUG Sat Jan 21 13:40:05 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:162: Spawned with pid 12683
+[DEBUG Sat Jan 21 13:40:05 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:148: Job pid=12658 exited with exit_code=0, signal=0
+[DEBUG Sat Jan 21 13:40:05 2023] .../opt/mason.nvim/lua/mason-core/package/version-check.lua:72: Version check failed Primary package is not outdated.
+[DEBUG Sat Jan 21 13:40:05 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:116: Spawning cmd="npm", spawn_opts={
+  args = { "ls", "--json" },
+  cwd = "/data/data/com.termux/files/home/.local/share/nvim/mason/packages/html-lsp"
+}
+[DEBUG Sat Jan 21 13:40:05 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:162: Spawned with pid 12691
+[DEBUG Sat Jan 21 13:40:05 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:148: Job pid=12670 exited with exit_code=0, signal=0
+[DEBUG Sat Jan 21 13:40:05 2023] .../opt/mason.nvim/lua/mason-core/package/version-check.lua:72: Version check failed Primary package is not outdated.
+[DEBUG Sat Jan 21 13:40:05 2023] ...site/pack/packer/opt/mason.nvim/lua/mason-core/fetch.lua:34: Fetching URL "https://api.mason-registry.dev/api/repo/microsoft/vscode-java-debug/releases/latest"
+[DEBUG Sat Jan 21 13:40:05 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:116: Spawning cmd="curl", spawn_opts={
+  args = { "-H", "Accept: application/vnd.mason-registry.v1+json; q=1.0, application/json; q=0.8", "-H", "User-Agent: mason.nvim (+https://github.com/williamboman/mason.nvim)", "-fsSL", "-X", "GET", "https://api.mason-registry.dev/api/repo/microsoft/vscode-java-debug/releases/latest" }
+}
+[DEBUG Sat Jan 21 13:40:05 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:162: Spawned with pid 12692
+[DEBUG Sat Jan 21 13:40:06 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:148: Job pid=12659 exited with exit_code=0, signal=0
+[DEBUG Sat Jan 21 13:40:06 2023] .../opt/mason.nvim/lua/mason-core/package/version-check.lua:72: Version check failed Primary package is not outdated.
+[DEBUG Sat Jan 21 13:40:06 2023] ...site/pack/packer/opt/mason.nvim/lua/mason-core/fetch.lua:34: Fetching URL "https://api.mason-registry.dev/api/repo/microsoft/vscode-java-test/releases/latest"
+[DEBUG Sat Jan 21 13:40:06 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:116: Spawning cmd="curl", spawn_opts={
+  args = { "-H", "Accept: application/vnd.mason-registry.v1+json; q=1.0, application/json; q=0.8", "-H", "User-Agent: mason.nvim (+https://github.com/williamboman/mason.nvim)", "-fsSL", "-X", "GET", "https://api.mason-registry.dev/api/repo/microsoft/vscode-java-test/releases/latest" }
+}
+[DEBUG Sat Jan 21 13:40:06 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:162: Spawned with pid 12705
+[DEBUG Sat Jan 21 13:40:06 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:148: Job pid=12692 exited with exit_code=0, signal=0
+[DEBUG Sat Jan 21 13:40:06 2023] .../opt/mason.nvim/lua/mason-core/package/version-check.lua:72: Version check failed ...r/opt/mason.nvim/lua/mason-core/managers/github/init.lua:181: Primary package is not outdated.
+[DEBUG Sat Jan 21 13:40:06 2023] ...site/pack/packer/opt/mason.nvim/lua/mason-core/fetch.lua:34: Fetching URL "https://api.mason-registry.dev/api/repo/eclipse/eclipse.jdt.ls/tags/latest"
+[DEBUG Sat Jan 21 13:40:06 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:116: Spawning cmd="curl", spawn_opts={
+  args = { "-H", "Accept: application/vnd.mason-registry.v1+json; q=1.0, application/json; q=0.8", "-H", "User-Agent: mason.nvim (+https://github.com/williamboman/mason.nvim)", "-fsSL", "-X", "GET", "https://api.mason-registry.dev/api/repo/eclipse/eclipse.jdt.ls/tags/latest" }
+}
+[DEBUG Sat Jan 21 13:40:06 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:162: Spawned with pid 12716
+[DEBUG Sat Jan 21 13:40:06 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:148: Job pid=12683 exited with exit_code=0, signal=0
+[DEBUG Sat Jan 21 13:40:06 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:116: Spawning cmd="git", spawn_opts={
+  args = { "rev-parse", "FETCH_HEAD", "HEAD" },
+  cwd = "/data/data/com.termux/files/home/.local/share/nvim/mason/packages/groovy-language-server"
+}
+[DEBUG Sat Jan 21 13:40:06 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:162: Spawned with pid 12724
+[DEBUG Sat Jan 21 13:40:06 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:148: Job pid=12724 exited with exit_code=0, signal=0
+[DEBUG Sat Jan 21 13:40:06 2023] .../opt/mason.nvim/lua/mason-core/package/version-check.lua:72: Version check failed Git clone is up to date.
+[DEBUG Sat Jan 21 13:40:06 2023] ...site/pack/packer/opt/mason.nvim/lua/mason-core/fetch.lua:34: Fetching URL "https://api.mason-registry.dev/api/repo/microsoft/vscode-js-debug/tags/latest"
+[DEBUG Sat Jan 21 13:40:06 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:116: Spawning cmd="curl", spawn_opts={
+  args = { "-H", "Accept: application/vnd.mason-registry.v1+json; q=1.0, application/json; q=0.8", "-H", "User-Agent: mason.nvim (+https://github.com/williamboman/mason.nvim)", "-fsSL", "-X", "GET", "https://api.mason-registry.dev/api/repo/microsoft/vscode-js-debug/tags/latest" }
+}
+[DEBUG Sat Jan 21 13:40:06 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:162: Spawned with pid 12725
+[DEBUG Sat Jan 21 13:40:06 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:148: Job pid=12677 exited with exit_code=0, signal=0
+[DEBUG Sat Jan 21 13:40:06 2023] .../opt/mason.nvim/lua/mason-core/package/version-check.lua:72: Version check failed Primary package is not outdated.
+[DEBUG Sat Jan 21 13:40:06 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:116: Spawning cmd="npm", spawn_opts={
+  args = { "ls", "--json" },
+  cwd = "/data/data/com.termux/files/home/.local/share/nvim/mason/packages/json-lsp"
+}
+[DEBUG Sat Jan 21 13:40:06 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:162: Spawned with pid 12731
+[DEBUG Sat Jan 21 13:40:06 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:148: Job pid=12691 exited with exit_code=0, signal=0
+[DEBUG Sat Jan 21 13:40:06 2023] ...site/pack/packer/opt/mason.nvim/lua/mason-core/fetch.lua:34: Fetching URL "https://api.mason-registry.dev/api/npm/vscode-langservers-extracted/versions/latest"
+[DEBUG Sat Jan 21 13:40:06 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:116: Spawning cmd="curl", spawn_opts={
+  args = { "-H", "Accept: application/vnd.mason-registry.v1+json; q=1.0, application/json; q=0.8", "-H", "User-Agent: mason.nvim (+https://github.com/williamboman/mason.nvim)", "-fsSL", "-X", "GET", "https://api.mason-registry.dev/api/npm/vscode-langservers-extracted/versions/latest" }
+}
+[DEBUG Sat Jan 21 13:40:06 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:162: Spawned with pid 12741
+[DEBUG Sat Jan 21 13:40:07 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:148: Job pid=12741 exited with exit_code=0, signal=0
+[DEBUG Sat Jan 21 13:40:07 2023] .../opt/mason.nvim/lua/mason-core/package/version-check.lua:72: Version check failed Primary package is not outdated.
+[DEBUG Sat Jan 21 13:40:07 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:116: Spawning cmd="npm", spawn_opts={
+  args = { "ls", "--json" },
+  cwd = "/data/data/com.termux/files/home/.local/share/nvim/mason/packages/markdownlint"
+}
+[DEBUG Sat Jan 21 13:40:07 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:162: Spawned with pid 12747
+[DEBUG Sat Jan 21 13:40:07 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:148: Job pid=12705 exited with exit_code=0, signal=0
+[DEBUG Sat Jan 21 13:40:07 2023] .../opt/mason.nvim/lua/mason-core/package/version-check.lua:72: Version check failed ...r/opt/mason.nvim/lua/mason-core/managers/github/init.lua:181: Primary package is not outdated.
+[DEBUG Sat Jan 21 13:40:07 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:116: Spawning cmd="npm", spawn_opts={
+  args = { "ls", "--json" },
+  cwd = "/data/data/com.termux/files/home/.local/share/nvim/mason/packages/prettier"
+}
+[DEBUG Sat Jan 21 13:40:07 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:162: Spawned with pid 12748
+[DEBUG Sat Jan 21 13:40:07 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:148: Job pid=12716 exited with exit_code=0, signal=0
+[DEBUG Sat Jan 21 13:40:07 2023] .../opt/mason.nvim/lua/mason-core/package/version-check.lua:72: Version check failed ...r/opt/mason.nvim/lua/mason-core/managers/github/init.lua:201: Primary package is not outdated.
+[DEBUG Sat Jan 21 13:40:07 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:116: Spawning cmd="npm", spawn_opts={
+  args = { "ls", "--json" },
+  cwd = "/data/data/com.termux/files/home/.local/share/nvim/mason/packages/remark-cli"
+}
+[DEBUG Sat Jan 21 13:40:07 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:162: Spawned with pid 12761
+[DEBUG Sat Jan 21 13:40:07 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:148: Job pid=12725 exited with exit_code=0, signal=0
+[DEBUG Sat Jan 21 13:40:07 2023] .../opt/mason.nvim/lua/mason-core/package/version-check.lua:72: Version check failed ...r/opt/mason.nvim/lua/mason-core/managers/github/init.lua:201: Primary package is not outdated.
+[DEBUG Sat Jan 21 13:40:07 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:116: Spawning cmd="npm", spawn_opts={
+  args = { "ls", "--json" },
+  cwd = "/data/data/com.termux/files/home/.local/share/nvim/mason/packages/remark-language-server"
+}
+[DEBUG Sat Jan 21 13:40:07 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:162: Spawned with pid 12774
+[DEBUG Sat Jan 21 13:40:07 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:148: Job pid=12731 exited with exit_code=0, signal=0
+[DEBUG Sat Jan 21 13:40:07 2023] ...site/pack/packer/opt/mason.nvim/lua/mason-core/fetch.lua:34: Fetching URL "https://api.mason-registry.dev/api/npm/vscode-langservers-extracted/versions/latest"
+[DEBUG Sat Jan 21 13:40:07 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:116: Spawning cmd="curl", spawn_opts={
+  args = { "-H", "Accept: application/vnd.mason-registry.v1+json; q=1.0, application/json; q=0.8", "-H", "User-Agent: mason.nvim (+https://github.com/williamboman/mason.nvim)", "-fsSL", "-X", "GET", "https://api.mason-registry.dev/api/npm/vscode-langservers-extracted/versions/latest" }
+}
+[DEBUG Sat Jan 21 13:40:07 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:162: Spawned with pid 12784
+[DEBUG Sat Jan 21 13:40:07 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:148: Job pid=12784 exited with exit_code=0, signal=0
+[DEBUG Sat Jan 21 13:40:07 2023] .../opt/mason.nvim/lua/mason-core/package/version-check.lua:72: Version check failed Primary package is not outdated.
+[DEBUG Sat Jan 21 13:40:07 2023] ...site/pack/packer/opt/mason.nvim/lua/mason-core/fetch.lua:34: Fetching URL "https://api.mason-registry.dev/api/repo/koalaman/shellcheck/releases/latest"
+[DEBUG Sat Jan 21 13:40:07 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:116: Spawning cmd="curl", spawn_opts={
+  args = { "-H", "Accept: application/vnd.mason-registry.v1+json; q=1.0, application/json; q=0.8", "-H", "User-Agent: mason.nvim (+https://github.com/williamboman/mason.nvim)", "-fsSL", "-X", "GET", "https://api.mason-registry.dev/api/repo/koalaman/shellcheck/releases/latest" }
+}
+[DEBUG Sat Jan 21 13:40:08 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:162: Spawned with pid 12794
+[DEBUG Sat Jan 21 13:40:08 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:148: Job pid=12747 exited with exit_code=0, signal=0
+[DEBUG Sat Jan 21 13:40:08 2023] ...site/pack/packer/opt/mason.nvim/lua/mason-core/fetch.lua:34: Fetching URL "https://api.mason-registry.dev/api/npm/markdownlint-cli/versions/latest"
+[DEBUG Sat Jan 21 13:40:08 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:116: Spawning cmd="curl", spawn_opts={
+  args = { "-H", "Accept: application/vnd.mason-registry.v1+json; q=1.0, application/json; q=0.8", "-H", "User-Agent: mason.nvim (+https://github.com/williamboman/mason.nvim)", "-fsSL", "-X", "GET", "https://api.mason-registry.dev/api/npm/markdownlint-cli/versions/latest" }
+}
+[DEBUG Sat Jan 21 13:40:08 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:162: Spawned with pid 12813
+[DEBUG Sat Jan 21 13:40:08 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:148: Job pid=12748 exited with exit_code=0, signal=0
+[DEBUG Sat Jan 21 13:40:08 2023] ...site/pack/packer/opt/mason.nvim/lua/mason-core/fetch.lua:34: Fetching URL "https://api.mason-registry.dev/api/npm/prettier/versions/latest"
+[DEBUG Sat Jan 21 13:40:08 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:116: Spawning cmd="curl", spawn_opts={
+  args = { "-H", "Accept: application/vnd.mason-registry.v1+json; q=1.0, application/json; q=0.8", "-H", "User-Agent: mason.nvim (+https://github.com/williamboman/mason.nvim)", "-fsSL", "-X", "GET", "https://api.mason-registry.dev/api/npm/prettier/versions/latest" }
+}
+[DEBUG Sat Jan 21 13:40:08 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:162: Spawned with pid 12819
+[DEBUG Sat Jan 21 13:40:08 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:148: Job pid=12774 exited with exit_code=0, signal=0
+[DEBUG Sat Jan 21 13:40:08 2023] ...site/pack/packer/opt/mason.nvim/lua/mason-core/fetch.lua:34: Fetching URL "https://api.mason-registry.dev/api/npm/remark-language-server/versions/latest"
+[DEBUG Sat Jan 21 13:40:08 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:116: Spawning cmd="curl", spawn_opts={
+  args = { "-H", "Accept: application/vnd.mason-registry.v1+json; q=1.0, application/json; q=0.8", "-H", "User-Agent: mason.nvim (+https://github.com/williamboman/mason.nvim)", "-fsSL", "-X", "GET", "https://api.mason-registry.dev/api/npm/remark-language-server/versions/latest" }
+}
+[DEBUG Sat Jan 21 13:40:08 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:162: Spawned with pid 12826
+[DEBUG Sat Jan 21 13:40:08 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:148: Job pid=12761 exited with exit_code=0, signal=0
+[DEBUG Sat Jan 21 13:40:08 2023] ...site/pack/packer/opt/mason.nvim/lua/mason-core/fetch.lua:34: Fetching URL "https://api.mason-registry.dev/api/npm/remark-cli/versions/latest"
+[DEBUG Sat Jan 21 13:40:08 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:116: Spawning cmd="curl", spawn_opts={
+  args = { "-H", "Accept: application/vnd.mason-registry.v1+json; q=1.0, application/json; q=0.8", "-H", "User-Agent: mason.nvim (+https://github.com/williamboman/mason.nvim)", "-fsSL", "-X", "GET", "https://api.mason-registry.dev/api/npm/remark-cli/versions/latest" }
+}
+[DEBUG Sat Jan 21 13:40:08 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:162: Spawned with pid 12832
+[DEBUG Sat Jan 21 13:40:08 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:148: Job pid=12794 exited with exit_code=0, signal=0
+[DEBUG Sat Jan 21 13:40:08 2023] .../opt/mason.nvim/lua/mason-core/package/version-check.lua:72: Version check failed ...r/opt/mason.nvim/lua/mason-core/managers/github/init.lua:181: Primary package is not outdated.
+[DEBUG Sat Jan 21 13:40:08 2023] ...site/pack/packer/opt/mason.nvim/lua/mason-core/fetch.lua:34: Fetching URL "https://api.mason-registry.dev/api/repo/mvdan/sh/releases/latest"
+[DEBUG Sat Jan 21 13:40:08 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:116: Spawning cmd="curl", spawn_opts={
+  args = { "-H", "Accept: application/vnd.mason-registry.v1+json; q=1.0, application/json; q=0.8", "-H", "User-Agent: mason.nvim (+https://github.com/williamboman/mason.nvim)", "-fsSL", "-X", "GET", "https://api.mason-registry.dev/api/repo/mvdan/sh/releases/latest" }
+}
+[DEBUG Sat Jan 21 13:40:08 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:162: Spawned with pid 12839
+[DEBUG Sat Jan 21 13:40:08 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:148: Job pid=12813 exited with exit_code=0, signal=0
+[DEBUG Sat Jan 21 13:40:08 2023] .../opt/mason.nvim/lua/mason-core/package/version-check.lua:72: Version check failed Primary package is not outdated.
+[DEBUG Sat Jan 21 13:40:08 2023] ...site/pack/packer/opt/mason.nvim/lua/mason-core/fetch.lua:34: Fetching URL "https://api.mason-registry.dev/api/repo/johnnymorganz/stylua/releases/latest"
+[DEBUG Sat Jan 21 13:40:08 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:116: Spawning cmd="curl", spawn_opts={
+  args = { "-H", "Accept: application/vnd.mason-registry.v1+json; q=1.0, application/json; q=0.8", "-H", "User-Agent: mason.nvim (+https://github.com/williamboman/mason.nvim)", "-fsSL", "-X", "GET", "https://api.mason-registry.dev/api/repo/johnnymorganz/stylua/releases/latest" }
+}
+[DEBUG Sat Jan 21 13:40:08 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:162: Spawned with pid 12845
+[DEBUG Sat Jan 21 13:40:08 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:148: Job pid=12819 exited with exit_code=0, signal=0
+[DEBUG Sat Jan 21 13:40:08 2023] .../opt/mason.nvim/lua/mason-core/package/version-check.lua:72: Version check failed Primary package is not outdated.
+[DEBUG Sat Jan 21 13:40:08 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:116: Spawning cmd="npm", spawn_opts={
+  args = { "ls", "--json" },
+  cwd = "/data/data/com.termux/files/home/.local/share/nvim/mason/packages/typescript-language-server"
+}
+[DEBUG Sat Jan 21 13:40:08 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:162: Spawned with pid 12852
+[DEBUG Sat Jan 21 13:40:09 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:148: Job pid=12832 exited with exit_code=0, signal=0
+[DEBUG Sat Jan 21 13:40:09 2023] .../opt/mason.nvim/lua/mason-core/package/version-check.lua:72: Version check failed Primary package is not outdated.
+[DEBUG Sat Jan 21 13:40:09 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:116: Spawning cmd="npm", spawn_opts={
+  args = { "ls", "--json" },
+  cwd = "/data/data/com.termux/files/home/.local/share/nvim/mason/packages/vim-language-server"
+}
+[DEBUG Sat Jan 21 13:40:09 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:162: Spawned with pid 12860
+[DEBUG Sat Jan 21 13:40:09 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:148: Job pid=12839 exited with exit_code=0, signal=0
+[DEBUG Sat Jan 21 13:40:09 2023] .../opt/mason.nvim/lua/mason-core/package/version-check.lua:72: Version check failed ...r/opt/mason.nvim/lua/mason-core/managers/github/init.lua:181: Primary package is not outdated.
+[DEBUG Sat Jan 21 13:40:09 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:148: Job pid=12845 exited with exit_code=0, signal=0
+[DEBUG Sat Jan 21 13:40:09 2023] .../opt/mason.nvim/lua/mason-core/package/version-check.lua:72: Version check failed ...r/opt/mason.nvim/lua/mason-core/managers/github/init.lua:181: Primary package is not outdated.
+[DEBUG Sat Jan 21 13:40:09 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:148: Job pid=12826 exited with exit_code=0, signal=0
+[DEBUG Sat Jan 21 13:40:09 2023] .../opt/mason.nvim/lua/mason-core/package/version-check.lua:72: Version check failed Primary package is not outdated.
+[DEBUG Sat Jan 21 13:40:09 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:148: Job pid=12852 exited with exit_code=0, signal=0
+[DEBUG Sat Jan 21 13:40:09 2023] ...site/pack/packer/opt/mason.nvim/lua/mason-core/fetch.lua:34: Fetching URL "https://api.mason-registry.dev/api/npm/typescript-language-server/versions/latest"
+[DEBUG Sat Jan 21 13:40:09 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:116: Spawning cmd="curl", spawn_opts={
+  args = { "-H", "Accept: application/vnd.mason-registry.v1+json; q=1.0, application/json; q=0.8", "-H", "User-Agent: mason.nvim (+https://github.com/williamboman/mason.nvim)", "-fsSL", "-X", "GET", "https://api.mason-registry.dev/api/npm/typescript-language-server/versions/latest" }
+}
+[DEBUG Sat Jan 21 13:40:09 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:162: Spawned with pid 12878
+[DEBUG Sat Jan 21 13:40:09 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:148: Job pid=12860 exited with exit_code=0, signal=0
+[DEBUG Sat Jan 21 13:40:09 2023] ...site/pack/packer/opt/mason.nvim/lua/mason-core/fetch.lua:34: Fetching URL "https://api.mason-registry.dev/api/npm/vim-language-server/versions/latest"
+[DEBUG Sat Jan 21 13:40:09 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:116: Spawning cmd="curl", spawn_opts={
+  args = { "-H", "Accept: application/vnd.mason-registry.v1+json; q=1.0, application/json; q=0.8", "-H", "User-Agent: mason.nvim (+https://github.com/williamboman/mason.nvim)", "-fsSL", "-X", "GET", "https://api.mason-registry.dev/api/npm/vim-language-server/versions/latest" }
+}
+[DEBUG Sat Jan 21 13:40:09 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:162: Spawned with pid 12884
+[DEBUG Sat Jan 21 13:40:10 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:148: Job pid=12878 exited with exit_code=0, signal=0
+[DEBUG Sat Jan 21 13:40:10 2023] .../opt/mason.nvim/lua/mason-core/package/version-check.lua:72: Version check failed Primary package is not outdated.
+[DEBUG Sat Jan 21 13:40:10 2023] ...te/pack/packer/opt/mason.nvim/lua/mason-core/process.lua:148: Job pid=12884 exited with exit_code=0, signal=0
+[DEBUG Sat Jan 21 13:40:10 2023] .../opt/mason.nvim/lua/mason-core/package/version-check.lua:72: Version check failed Primary package is not outdated.
